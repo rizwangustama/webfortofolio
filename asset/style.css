@@ -45,7 +45,7 @@ img {
 
 #menu {
     background-color: #D3D3D3;
-    height: 50px;
+    height: 50px; 
     line-height: 50px;
     opacity: 0.7;
     font-size: 17px;
@@ -101,16 +101,15 @@ img {
 
 #box_user {
     text-align: center;
-    margin: 0px auto;
-    padding-top: 100px;
-    /* background-color: rgba(255, 255, 255, 0.4); */
+    margin: 80px auto;
 }
 
 .konten_about{
-    padding: 20px;
+    margin: 0 auto;
 }
 
 #box_user .konten_about img {
+    padding: 20px;
     width: 250px;
     height: 250px;
     border-radius: 50%;
@@ -134,36 +133,38 @@ img {
 }
 
 #sosmed{
-    margin: 0 auto;
-    background-color: blueviolet;
-    width: 480px;
+    margin: 0 auto 0 auto;
+    width: 435px;
+}
+
+#sosmed a:hover img {
+    padding: 10px;
 }
 
 #sosmed .sosmedlis {
-    background: brown;
-    margin: 0 auto;
+    margin: 20px auto;
     align-items: center;
 }
 
 #sosmed .kolomsosmed {
     margin: 0 auto;
-    padding: 0 auto;
+    /* padding: 0 auto; */
     float: left;
-    width: 80px;
+    width: 70px;
+    height: 50px;
 }
 
 /* Bagian Ketiga */
-#ketiga{
-    margin: 150px 0 auto 0;
-    text-align: center;
-    color: black;
-    padding-bottom: 20px;
+#ketiga {
+    background-color: rgba(44, 44, 44, 0.603);
     height: 400px;
+    color: white;
+    text-align: center;
 }
 
+
 #ketiga h2{
-    font-size: 30px;
-    padding: 30px 0 45px 0;
+    padding: 50px 0 45px 0;
     width: 200px;
     margin: 0 auto;
 }
@@ -205,4 +206,67 @@ img {
 }
 
 
+#keempat {
+    height: 450px;
+    background-color:rgb(36, 36, 36);
+}
 
+.kolom2 {
+    float: left;
+    width: 450px;
+    margin: 0 15px;
+}
+
+#keempat h2{
+    padding: 50px 0;
+    text-align: center;
+    color: white;
+}
+
+#keempat input {
+    display: block;
+    text-align: center;
+    width: 450px;
+    height: 30px;
+    border-radius: 50px;
+    margin-bottom: 15px;
+    /* border: 2px solid green; */
+}
+
+
+#keempat textarea {
+    display: block;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    text-align: left;
+    width: 450px;
+    height: 30px;
+}
+
+#keempat textarea {
+    height: 110px;
+}
+
+input[type=submit] {
+    background-color: black;
+    color: white;
+}
+
+input[type=submit]:hover {
+    cursor: pointer;
+    background-color:rgba(0, 0, 0, 0.651);
+    color: white;
+    border-radius: 50px;
+}
+
+
+#keempat iframe {
+    max-width: 450px;
+}
+
+#footer {
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 50px 0;
+    color: white;
+}
